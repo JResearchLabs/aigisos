@@ -2,6 +2,8 @@ package chain
 
 import (
 	"math/big"
+
+	"github.com/JResearchLabs/Flutechain/types"
 )
 
 // Params are all the set of params for the chain
@@ -19,6 +21,11 @@ func (p *Params) GetEngine() string {
 	}
 
 	return ""
+}
+
+// Whitelists specifies supported whitelists
+type Whitelists struct {
+	Deployment []types.Address `json:"deployment,omitempty"`
 }
 
 // Forks specifies when each fork is activated
