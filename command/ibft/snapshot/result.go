@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechainin/command/helper"
-	ibftHelper "github.com/JResearchLabs/Flutechainin/command/ibft/helper"
-	ibftOp "github.com/JResearchLabs/Flutechainin/consensus/ibft/proto"
+	"github.com/JResearchLabs/Flutechain/command/helper"
+	ibftHelper "github.com/JResearchLabs/Flutechain/command/ibft/helper"
+	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
 )
 
 type IBFTSnapshotVote struct {

@@ -3,8 +3,8 @@ package quorum
 import (
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechainin/command"
-	"github.com/JResearchLabs/Flutechainin/command/helper"
+	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/Flutechain/command/helper"
 	"github.com/spf13/cobra"
 )
 

@@ -3,9 +3,9 @@ package status
 import (
 	"context"
 
-	"github.com/JResearchLabs/Flutechainin/command"
-	"github.com/JResearchLabs/Flutechainin/command/helper"
-	ibftOp "github.com/JResearchLabs/Flutechainin/consensus/ibft/proto"
+	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/Flutechain/command/helper"
+	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
 	"github.com/spf13/cobra"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )

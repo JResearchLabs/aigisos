@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	ibftOp "github.com/JResearchLabs/Flutechainin/consensus/ibft/proto"
+	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
 
-	"github.com/JResearchLabs/Flutechainin/command"
-	"github.com/JResearchLabs/Flutechainin/command/helper"
-	"github.com/JResearchLabs/Flutechainin/types"
+	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/Flutechain/command/helper"
+	"github.com/JResearchLabs/Flutechain/types"
 )
 
 const (

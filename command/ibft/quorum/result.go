@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechainin/command/helper"
-	"github.com/JResearchLabs/Flutechainin/helper/common"
+	"github.com/JResearchLabs/Flutechain/command/helper"
+	"github.com/JResearchLabs/Flutechain/helper/common"
 )
 
 type IBFTQuorumResult struct {

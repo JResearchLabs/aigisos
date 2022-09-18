@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/JResearchLabs/Flutechainin/chain"
-	"github.com/JResearchLabs/Flutechainin/command"
-	"github.com/JResearchLabs/Flutechainin/command/helper"
-	"github.com/JResearchLabs/Flutechainin/helper/common"
+	"github.com/JResearchLabs/Flutechain/chain"
+	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/Flutechain/command/helper"
+	"github.com/JResearchLabs/Flutechain/helper/common"
 )
 
 const (

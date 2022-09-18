@@ -3,10 +3,10 @@ package propose
 import (
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechainin/command"
+	"github.com/JResearchLabs/Flutechain/command"
 	"github.com/spf13/cobra"
 
-	"github.com/JResearchLabs/Flutechainin/command/helper"
+	"github.com/JResearchLabs/Flutechain/command/helper"
 )
 
 func GetCommand() *cobra.Command {

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechainin/command/helper"
+	"github.com/JResearchLabs/Flutechain/command/helper"
 )
 
 type IBFTStatusResult struct {
