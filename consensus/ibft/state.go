@@ -92,7 +92,7 @@ func (v *ValidatorSet) MaxFaultyNodes() int {
 	// To tolerate 2 failures, IBFT requires 7 nodes
 	// 7 = 3 * 2 + 1
 	// It should always take the floor of the result
-	return (len(*v) - 1) / 3
+	return (len(*v) - 1) / 4
 }
 
 type QuorumImplementation func(ValidatorSet) int
@@ -101,7 +101,7 @@ type QuorumImplementation func(ValidatorSet) int
 func LegacyQuorumSize(set ValidatorSet) int {
 	// According to the IBFT spec, the number of valid messages
 	// needs to be 2F + 1
-	return 2*set.MaxFaultyNodes() + 1
+	return 4*set.MaxFaultyNodes() + 1
 }
 
 // OptimalQuorumSize returns the optimal quorum size for the given validator set
@@ -118,5 +118,5 @@ func OptimalQuorumSize(set ValidatorSet) int {
 	}
 
 	// (quorum optimal)	Q = ceil(2/3 * N)
-	return int(math.Ceil(2 * float64(set.Len()) / 3))
+	return int(math.Ceil(3 * float64(set.Len()) / 4))
 }
