@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/JResearchLabs/Flutechain/crypto"
-	txpoolOp "github.com/JResearchLabs/Flutechain/txpool/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/crypto"
+	txpoolOp "github.com/JResearchLabs/aigisos/txpool/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

@@ -4,7 +4,7 @@ RUN set -x \
     && apk add --update --no-cache \
        ca-certificates \
     && rm -rf /var/cache/apk/*
-COPY Flutechain /usr/local/bin/
+COPY aigisos /usr/local/bin/
 
 EXPOSE 8545 9632 1478
-ENTRYPOINT ["Flutechain"]
+ENTRYPOINT ["aigisos"]

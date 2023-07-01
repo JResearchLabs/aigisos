@@ -8,10 +8,10 @@ import (
 	"math/bits"
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
-	"github.com/JResearchLabs/Flutechain/state/runtime"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
+	"github.com/JResearchLabs/aigisos/state/runtime"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 type instruction func(c *state)

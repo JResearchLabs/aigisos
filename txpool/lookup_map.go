@@ -3,7 +3,7 @@ package txpool
 import (
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 // Lookup map used to find transactions present in the pool

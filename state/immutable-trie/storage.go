@@ -3,8 +3,8 @@ package itrie
 import (
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/umbracle/fastrlp"

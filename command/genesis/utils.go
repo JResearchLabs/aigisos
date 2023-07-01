@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/consensus/ibft"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/consensus/ibft"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 const (

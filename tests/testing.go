@@ -10,13 +10,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/state"
-	itrie "github.com/JResearchLabs/Flutechain/state/immutable-trie"
-	"github.com/JResearchLabs/Flutechain/state/runtime"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/state"
+	itrie "github.com/JResearchLabs/aigisos/state/immutable-trie"
+	"github.com/JResearchLabs/aigisos/state/runtime"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 // TESTS is the default location of the tests folder

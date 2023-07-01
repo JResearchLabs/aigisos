@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/state/runtime"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/state/runtime"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,11 +3,11 @@ package network
 import (
 	"math/big"
 
-	"github.com/JResearchLabs/Flutechain/network/common"
-	peerEvent "github.com/JResearchLabs/Flutechain/network/event"
-	"github.com/JResearchLabs/Flutechain/network/grpc"
-	"github.com/JResearchLabs/Flutechain/network/identity"
-	"github.com/JResearchLabs/Flutechain/network/proto"
+	"github.com/JResearchLabs/aigisos/network/common"
+	peerEvent "github.com/JResearchLabs/aigisos/network/event"
+	"github.com/JResearchLabs/aigisos/network/grpc"
+	"github.com/JResearchLabs/aigisos/network/identity"
+	"github.com/JResearchLabs/aigisos/network/proto"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"
 	kbucket "github.com/libp2p/go-libp2p-kbucket"

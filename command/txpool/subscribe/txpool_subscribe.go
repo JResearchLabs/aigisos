@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/helper/common"
-	txpoolProto "github.com/JResearchLabs/Flutechain/txpool/proto"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/helper/common"
+	txpoolProto "github.com/JResearchLabs/aigisos/txpool/proto"
 	"github.com/spf13/cobra"
 )
 

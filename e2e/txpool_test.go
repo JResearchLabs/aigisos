@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/txpool"
+	"github.com/JResearchLabs/aigisos/txpool"
 	"github.com/umbracle/ethgo"
 
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/e2e/framework"
-	"github.com/JResearchLabs/Flutechain/helper/tests"
-	txpoolOp "github.com/JResearchLabs/Flutechain/txpool/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/e2e/framework"
+	"github.com/JResearchLabs/aigisos/helper/tests"
+	txpoolOp "github.com/JResearchLabs/aigisos/txpool/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
 )

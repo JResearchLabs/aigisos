@@ -1,14 +1,14 @@
 package init
 
 import (
-	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/aigisos/command"
 	"github.com/spf13/cobra"
 )
 
 func GetCommand() *cobra.Command {
 	secretsInitCmd := &cobra.Command{
 		Use: "init",
-		Short: "Initializes private keys for the Flutechain (Validator + Networking) " +
+		Short: "Initializes private keys for the aigisos (Validator + Networking) " +
 			"to the specified Secrets Manager",
 		PreRunE: runPreRun,
 		Run:     runCommand,
@@ -24,7 +24,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.dataDir,
 		dataDirFlag,
 		"",
-		"the directory for the Flutechain data if the local FS is used",
+		"the directory for the aigisos data if the local FS is used",
 	)
 
 	cmd.Flags().StringVar(

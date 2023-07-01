@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/hashicorp/go-multierror"
 )
 

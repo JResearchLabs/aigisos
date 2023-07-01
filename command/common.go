@@ -3,7 +3,7 @@ package command
 import (
 	"errors"
 
-	"github.com/JResearchLabs/Flutechain/helper/common"
+	"github.com/JResearchLabs/aigisos/helper/common"
 )
 
 const (

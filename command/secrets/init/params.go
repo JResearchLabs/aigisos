@@ -4,10 +4,10 @@ import (
 	"crypto/ecdsa"
 	"errors"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/secrets"
-	"github.com/JResearchLabs/Flutechain/secrets/helper"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/secrets"
+	"github.com/JResearchLabs/aigisos/secrets/helper"
 	libp2pCrypto "github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/libp2p/go-libp2p-core/peer"
 )

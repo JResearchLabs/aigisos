@@ -3,18 +3,18 @@ package status
 import (
 	"context"
 
-	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/aigisos/command"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/spf13/cobra"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/server/proto"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/server/proto"
 )
 
 func GetCommand() *cobra.Command {
 	statusCmd := &cobra.Command{
 		Use:   "status",
-		Short: "Returns the status of the Flutechain client",
+		Short: "Returns the status of the aigisos client",
 		Args:  cobra.NoArgs,
 		Run:   runCommand,
 	}

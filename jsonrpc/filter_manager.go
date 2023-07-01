@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/blockchain"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/blockchain"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
 	"github.com/hashicorp/go-hclog"

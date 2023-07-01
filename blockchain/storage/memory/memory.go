@@ -1,8 +1,8 @@
 package memory
 
 import (
-	"github.com/JResearchLabs/Flutechain/blockchain/storage"
-	"github.com/JResearchLabs/Flutechain/helper/hex"
+	"github.com/JResearchLabs/aigisos/blockchain/storage"
+	"github.com/JResearchLabs/aigisos/helper/hex"
 	"github.com/hashicorp/go-hclog"
 )
 

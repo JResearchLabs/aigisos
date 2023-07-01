@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/aigisos/command"
 
-	"github.com/JResearchLabs/Flutechain/e2e/framework"
-	"github.com/JResearchLabs/Flutechain/helper/tests"
+	"github.com/JResearchLabs/aigisos/e2e/framework"
+	"github.com/JResearchLabs/aigisos/helper/tests"
 	"github.com/stretchr/testify/assert"
 )
 

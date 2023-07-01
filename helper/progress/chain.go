@@ -3,7 +3,7 @@ package progress
 import (
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/blockchain"
+	"github.com/JResearchLabs/aigisos/blockchain"
 )
 
 type ChainSyncType string

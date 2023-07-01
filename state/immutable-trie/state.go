@@ -6,8 +6,8 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/JResearchLabs/Flutechain/state"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/state"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 type State struct {

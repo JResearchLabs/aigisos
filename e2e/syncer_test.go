@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/e2e/framework"
+	"github.com/JResearchLabs/aigisos/e2e/framework"
 )
 
 func TestClusterBlockSync(t *testing.T) {
@@ -22,7 +22,7 @@ func TestClusterBlockSync(t *testing.T) {
 		IBFTDirPrefix, func(i int, config *framework.TestServerConfig) {
 			if i >= IBFTMinNodes {
 				// Other nodes should not be in the validator set
-				dirPrefix := "Flutechain-non-validator-"
+				dirPrefix := "aigisos-non-validator-"
 				config.SetIBFTDirPrefix(dirPrefix)
 				config.SetIBFTDir(fmt.Sprintf("%s%d", dirPrefix, i))
 			}

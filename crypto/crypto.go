@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/helper/keystore"
-	"github.com/JResearchLabs/Flutechain/secrets"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/keystore"
+	"github.com/JResearchLabs/aigisos/secrets"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/btcsuite/btcd/btcec"
 	"golang.org/x/crypto/sha3"
 

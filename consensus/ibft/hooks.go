@@ -3,7 +3,7 @@ package ibft
 import (
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/helper/common"
+	"github.com/JResearchLabs/aigisos/helper/common"
 )
 
 // Define the type of the IBFT consensus

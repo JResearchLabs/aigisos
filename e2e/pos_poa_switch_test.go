@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/consensus/ibft"
-	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/e2e/framework"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/consensus/ibft"
+	ibftOp "github.com/JResearchLabs/aigisos/consensus/ibft/proto"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/e2e/framework"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/stretchr/testify/assert"
 )
 

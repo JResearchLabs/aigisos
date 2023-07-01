@@ -262,7 +262,7 @@ func (j *JSONRPC) handle(w http.ResponseWriter, req *http.Request) {
 	}
 
 	if req.Method == "GET" {
-		_, _ = w.Write([]byte("Flutechain JSON-RPC"))
+		_, _ = w.Write([]byte("aigisos JSON-RPC"))
 
 		return
 	}

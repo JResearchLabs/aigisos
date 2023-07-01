@@ -1,6 +1,6 @@
 package txpool
 
-import "github.com/JResearchLabs/Flutechain/types"
+import "github.com/JResearchLabs/aigisos/types"
 
 /* QUERY methods */
 // Used to query the pool for specific state info.

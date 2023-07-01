@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/JResearchLabs/Flutechain/helper/common"
+	"github.com/JResearchLabs/aigisos/helper/common"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 var (

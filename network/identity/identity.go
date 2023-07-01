@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/network/event"
+	"github.com/JResearchLabs/aigisos/network/event"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/JResearchLabs/Flutechain/network/proto"
+	"github.com/JResearchLabs/aigisos/network/proto"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"
 )

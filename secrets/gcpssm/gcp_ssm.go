@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/JResearchLabs/Flutechain/secrets"
+	"github.com/JResearchLabs/aigisos/secrets"
 	"github.com/hashicorp/go-hclog"
 
 	sm "cloud.google.com/go/secretmanager/apiv1"

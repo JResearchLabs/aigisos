@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	ibftHelper "github.com/JResearchLabs/Flutechain/command/ibft/helper"
-	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	ibftHelper "github.com/JResearchLabs/aigisos/command/ibft/helper"
+	ibftOp "github.com/JResearchLabs/aigisos/consensus/ibft/proto"
 )
 
 type IBFTCandidate struct {

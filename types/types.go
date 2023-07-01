@@ -7,8 +7,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
 )
 
 var ZeroAddress = Address{}

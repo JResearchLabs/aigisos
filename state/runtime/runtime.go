@@ -4,8 +4,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 // TxContext is the context of the transaction

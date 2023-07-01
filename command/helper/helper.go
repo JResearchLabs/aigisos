@@ -9,17 +9,17 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/command"
-	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
-	"github.com/JResearchLabs/Flutechain/server"
-	"github.com/JResearchLabs/Flutechain/server/proto"
-	txpoolOp "github.com/JResearchLabs/Flutechain/txpool/proto"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/command"
+	ibftOp "github.com/JResearchLabs/aigisos/consensus/ibft/proto"
+	"github.com/JResearchLabs/aigisos/server"
+	"github.com/JResearchLabs/aigisos/server/proto"
+	txpoolOp "github.com/JResearchLabs/aigisos/txpool/proto"
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/JResearchLabs/Flutechain/helper/common"
+	"github.com/JResearchLabs/aigisos/helper/common"
 	"github.com/ryanuber/columnize"
 )
 

@@ -83,7 +83,7 @@ func TestEncoding_KeyBytesToHexNibbles(t *testing.T) {
 		},
 		{
 			"Valid case #3",
-			[]byte("Flutechain"),
+			[]byte("aigisos"),
 			[]byte{
 				0x5, 0x0, // P -> 85 	-> 0x50
 				0x6, 0xf, // o -> 111 	-> 0x6f

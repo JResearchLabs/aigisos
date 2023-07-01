@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/blockchain"
-	"github.com/JResearchLabs/Flutechain/helper/progress"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/blockchain"
+	"github.com/JResearchLabs/aigisos/helper/progress"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/stretchr/testify/assert"
 )
 

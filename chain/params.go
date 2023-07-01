@@ -3,7 +3,7 @@ package chain
 import (
 	"math/big"
 
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 // Params are all the set of params for the chain

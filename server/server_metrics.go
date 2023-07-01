@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/JResearchLabs/Flutechain/consensus"
-	"github.com/JResearchLabs/Flutechain/network"
-	"github.com/JResearchLabs/Flutechain/txpool"
+	"github.com/JResearchLabs/aigisos/consensus"
+	"github.com/JResearchLabs/aigisos/network"
+	"github.com/JResearchLabs/aigisos/txpool"
 )
 
 // serverMetrics holds the metric instances of all sub systems

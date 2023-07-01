@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/JResearchLabs/Flutechain/blockchain"
-	"github.com/JResearchLabs/Flutechain/helper/common"
-	"github.com/JResearchLabs/Flutechain/helper/progress"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/blockchain"
+	"github.com/JResearchLabs/aigisos/helper/common"
+	"github.com/JResearchLabs/aigisos/helper/progress"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 const (

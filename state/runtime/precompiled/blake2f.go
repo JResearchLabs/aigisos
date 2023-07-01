@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/JResearchLabs/Flutechain/chain"
+	"github.com/JResearchLabs/aigisos/chain"
 )
 
 type blake2f struct {

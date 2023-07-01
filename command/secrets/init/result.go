@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 type SecretsInitResult struct {

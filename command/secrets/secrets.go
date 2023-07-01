@@ -1,9 +1,9 @@
 package secrets
 
 import (
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/command/secrets/generate"
-	initCmd "github.com/JResearchLabs/Flutechain/command/secrets/init"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/command/secrets/generate"
+	initCmd "github.com/JResearchLabs/aigisos/command/secrets/init"
 	"github.com/spf13/cobra"
 )
 

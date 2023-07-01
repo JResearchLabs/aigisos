@@ -11,25 +11,25 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/archive"
-	"github.com/JResearchLabs/Flutechain/blockchain"
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/consensus"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/helper/common"
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
-	"github.com/JResearchLabs/Flutechain/helper/progress"
-	"github.com/JResearchLabs/Flutechain/jsonrpc"
-	"github.com/JResearchLabs/Flutechain/network"
-	"github.com/JResearchLabs/Flutechain/secrets"
-	"github.com/JResearchLabs/Flutechain/server/proto"
-	"github.com/JResearchLabs/Flutechain/state"
-	itrie "github.com/JResearchLabs/Flutechain/state/immutable-trie"
-	"github.com/JResearchLabs/Flutechain/state/runtime"
-	"github.com/JResearchLabs/Flutechain/state/runtime/evm"
-	"github.com/JResearchLabs/Flutechain/state/runtime/precompiled"
-	"github.com/JResearchLabs/Flutechain/txpool"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/archive"
+	"github.com/JResearchLabs/aigisos/blockchain"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/consensus"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/helper/common"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
+	"github.com/JResearchLabs/aigisos/helper/progress"
+	"github.com/JResearchLabs/aigisos/jsonrpc"
+	"github.com/JResearchLabs/aigisos/network"
+	"github.com/JResearchLabs/aigisos/secrets"
+	"github.com/JResearchLabs/aigisos/server/proto"
+	"github.com/JResearchLabs/aigisos/state"
+	itrie "github.com/JResearchLabs/aigisos/state/immutable-trie"
+	"github.com/JResearchLabs/aigisos/state/runtime"
+	"github.com/JResearchLabs/aigisos/state/runtime/evm"
+	"github.com/JResearchLabs/aigisos/state/runtime/precompiled"
+	"github.com/JResearchLabs/aigisos/txpool"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
@@ -89,7 +89,7 @@ func newFileLogger(config *Config) (hclog.Logger, error) {
 	}
 
 	return hclog.New(&hclog.LoggerOptions{
-		Name:   "Flutechain",
+		Name:   "aigisos",
 		Level:  config.LogLevel,
 		Output: logFileWriter,
 	}), nil
@@ -98,7 +98,7 @@ func newFileLogger(config *Config) (hclog.Logger, error) {
 // newCLILogger returns minimal logger instance that sends all logs to standard output
 func newCLILogger(config *Config) hclog.Logger {
 	return hclog.New(&hclog.LoggerOptions{
-		Name:  "Flutechain",
+		Name:  "aigisos",
 		Level: config.LogLevel,
 	})
 }
@@ -142,10 +142,10 @@ func NewServer(config *Config) (*Server, error) {
 	}
 
 	if config.Telemetry.PrometheusAddr != nil {
-		m.serverMetrics = metricProvider("Flutechain", config.Chain.Name, true)
+		m.serverMetrics = metricProvider("aigisos", config.Chain.Name, true)
 		m.prometheusServer = m.startPrometheusServer(config.Telemetry.PrometheusAddr)
 	} else {
-		m.serverMetrics = metricProvider("Flutechain", config.Chain.Name, false)
+		m.serverMetrics = metricProvider("aigisos", config.Chain.Name, false)
 	}
 
 	// Set up the secrets manager

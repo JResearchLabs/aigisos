@@ -3,8 +3,8 @@ package evm
 import (
 	"errors"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/state/runtime"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/state/runtime"
 )
 
 var _ runtime.Runtime = &EVM{}

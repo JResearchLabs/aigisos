@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/licenses"
+	"github.com/JResearchLabs/aigisos/licenses"
 )
 
 type LicenseResult struct {

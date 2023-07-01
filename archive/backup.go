@@ -7,9 +7,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/JResearchLabs/Flutechain/helper/common"
-	"github.com/JResearchLabs/Flutechain/server/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/helper/common"
+	"github.com/JResearchLabs/aigisos/server/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

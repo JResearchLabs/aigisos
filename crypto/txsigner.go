@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/umbracle/fastrlp"
 )
 

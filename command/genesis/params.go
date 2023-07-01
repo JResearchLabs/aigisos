@@ -4,14 +4,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/consensus/ibft"
-	"github.com/JResearchLabs/Flutechain/contracts/staking"
-	stakingHelper "github.com/JResearchLabs/Flutechain/helper/staking"
-	"github.com/JResearchLabs/Flutechain/server"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/consensus/ibft"
+	"github.com/JResearchLabs/aigisos/contracts/staking"
+	stakingHelper "github.com/JResearchLabs/aigisos/helper/staking"
+	"github.com/JResearchLabs/aigisos/server"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 const (

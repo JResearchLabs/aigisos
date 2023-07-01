@@ -3,10 +3,10 @@ package genesis
 import (
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/consensus/ibft"
-	"github.com/JResearchLabs/Flutechain/helper/common"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/consensus/ibft"
+	"github.com/JResearchLabs/aigisos/helper/common"
 	"github.com/spf13/cobra"
 )
 
@@ -33,7 +33,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.genesisPath,
 		dirFlag,
 		fmt.Sprintf("./%s", command.DefaultGenesisFileName),
-		"the directory for the Flutechain genesis data",
+		"the directory for the aigisos genesis data",
 	)
 
 	cmd.Flags().Uint64Var(

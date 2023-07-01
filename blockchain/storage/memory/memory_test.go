@@ -3,7 +3,7 @@ package memory
 import (
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/blockchain/storage"
+	"github.com/JResearchLabs/aigisos/blockchain/storage"
 )
 
 func TestStorage(t *testing.T) {

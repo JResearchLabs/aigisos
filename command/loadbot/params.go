@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/JResearchLabs/Flutechain/command/loadbot/generator"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/command/loadbot/generator"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

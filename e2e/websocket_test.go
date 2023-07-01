@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/e2e/framework"
-	"github.com/JResearchLabs/Flutechain/jsonrpc"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/e2e/framework"
+	"github.com/JResearchLabs/aigisos/jsonrpc"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

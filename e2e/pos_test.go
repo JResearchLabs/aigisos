@@ -9,16 +9,16 @@ import (
 	"testing"
 	"time"
 
-	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
+	ibftOp "github.com/JResearchLabs/aigisos/consensus/ibft/proto"
 	"github.com/umbracle/ethgo"
 
-	"github.com/JResearchLabs/Flutechain/contracts/staking"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/e2e/framework"
-	stakingHelper "github.com/JResearchLabs/Flutechain/helper/staking"
-	"github.com/JResearchLabs/Flutechain/helper/tests"
-	txpoolOp "github.com/JResearchLabs/Flutechain/txpool/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/contracts/staking"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/e2e/framework"
+	stakingHelper "github.com/JResearchLabs/aigisos/helper/staking"
+	"github.com/JResearchLabs/aigisos/helper/tests"
+	txpoolOp "github.com/JResearchLabs/aigisos/txpool/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
@@ -758,7 +758,7 @@ func TestSnapshotUpdating(t *testing.T) {
 				config.PremineValidatorBalance(defaultBalance)
 			} else {
 				// Other nodes should not be in the validator set
-				dirPrefix := "Flutechain-non-validator-"
+				dirPrefix := "aigisos-non-validator-"
 				config.SetIBFTDirPrefix(dirPrefix)
 				config.SetIBFTDir(fmt.Sprintf("%s%d", dirPrefix, i))
 			}

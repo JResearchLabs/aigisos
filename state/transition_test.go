@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/state/runtime"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/state/runtime"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 )

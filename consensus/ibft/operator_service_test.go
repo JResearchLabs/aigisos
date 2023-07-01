@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/consensus"
+	"github.com/JResearchLabs/aigisos/consensus"
 
-	"github.com/JResearchLabs/Flutechain/blockchain"
-	"github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/blockchain"
+	"github.com/JResearchLabs/aigisos/consensus/ibft/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/stretchr/testify/assert"
 )
 

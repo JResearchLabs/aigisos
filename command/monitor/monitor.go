@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/helper/common"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/helper/common"
 	"github.com/spf13/cobra"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/server/proto"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

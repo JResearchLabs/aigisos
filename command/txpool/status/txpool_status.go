@@ -3,11 +3,11 @@ package status
 import (
 	"context"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/helper"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/helper"
 	"github.com/spf13/cobra"
 
-	txpoolOp "github.com/JResearchLabs/Flutechain/txpool/proto"
+	txpoolOp "github.com/JResearchLabs/aigisos/txpool/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

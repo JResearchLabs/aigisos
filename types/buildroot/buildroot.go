@@ -1,9 +1,9 @@
 package buildroot
 
 import (
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
-	itrie "github.com/JResearchLabs/Flutechain/state/immutable-trie"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
+	itrie "github.com/JResearchLabs/aigisos/state/immutable-trie"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/umbracle/fastrlp"
 )
 

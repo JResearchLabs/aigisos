@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/network/common"
-	"github.com/JResearchLabs/Flutechain/network/event"
+	"github.com/JResearchLabs/aigisos/network/common"
+	"github.com/JResearchLabs/aigisos/network/event"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p-core/network"
 
-	"github.com/JResearchLabs/Flutechain/network/grpc"
-	"github.com/JResearchLabs/Flutechain/network/proto"
+	"github.com/JResearchLabs/aigisos/network/grpc"
+	"github.com/JResearchLabs/aigisos/network/proto"
 	"github.com/libp2p/go-libp2p-core/peer"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 )

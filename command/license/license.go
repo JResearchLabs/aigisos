@@ -1,16 +1,16 @@
 package license
 
 import (
-	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/aigisos/command"
 	"github.com/spf13/cobra"
 
-	"github.com/JResearchLabs/Flutechain/licenses"
+	"github.com/JResearchLabs/aigisos/licenses"
 )
 
 func GetCommand() *cobra.Command {
 	return &cobra.Command{
 		Use:   "license",
-		Short: "Returns Flutechain license and dependency attributions",
+		Short: "Returns aigisos license and dependency attributions",
 		Args:  cobra.NoArgs,
 		Run:   runCommand,
 	}

@@ -37,7 +37,7 @@
 - [Ory Hydra](https://github.com/ory/hydra)
 - [Ory Kratos](https://github.com/ory/kratos)
 - [Pixie](https://github.com/pixie-io/pixie)
-- [Flutechain](https://github.com/JResearchLabs/Flutechain)
+- [aigisos](https://github.com/JResearchLabs/aigisos)
 - [Pouch](https://github.com/alibaba/pouch)
 - [ProjectAtomic (enterprise)](https://www.projectatomic.io/)
 - [Prototool](https://github.com/uber/prototool)

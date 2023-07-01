@@ -20,7 +20,7 @@ protoc:
 build:
 	$(eval LATEST_VERSION = $(shell git describe --tags --abbrev=0))
 	$(eval COMMIT_HASH = $(shell git rev-parse --short HEAD))
-	go build -ldflags="-X 'github.com/JResearchLabs/Flutechain/versioning.Version=$(LATEST_VERSION)+$(COMMIT_HASH)'" main.go
+	go build -ldflags="-X 'github.com/JResearchLabs/aigisos/versioning.Version=$(LATEST_VERSION)+$(COMMIT_HASH)'" main.go
 
 .PHONY: lint
 lint:
@@ -34,6 +34,6 @@ generate-bsd-licenses:
 
 .PHONY: test
 test:
-	go build -o artifacts/Flutechain .
+	go build -o artifacts/aigisos .
 	$(eval export PATH=$(shell pwd)/artifacts:$(PATH))
 	go test -timeout 28m ./...

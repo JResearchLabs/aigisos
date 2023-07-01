@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
+	"github.com/JResearchLabs/aigisos/command/helper"
 )
 
 type SecretsGenerateResult struct {

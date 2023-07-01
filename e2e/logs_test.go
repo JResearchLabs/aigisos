@@ -8,10 +8,10 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/JResearchLabs/Flutechain/e2e/framework"
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/helper/tests"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/e2e/framework"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/tests"
+	"github.com/JResearchLabs/aigisos/types"
 
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/sha3"

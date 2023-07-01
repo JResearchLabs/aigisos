@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/chain"
+	"github.com/JResearchLabs/aigisos/chain"
 	"github.com/stretchr/testify/assert"
 )
 

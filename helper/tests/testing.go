@@ -16,9 +16,9 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/umbracle/ethgo"
 
-	"github.com/JResearchLabs/Flutechain/crypto"
-	txpoolOp "github.com/JResearchLabs/Flutechain/txpool/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/crypto"
+	txpoolOp "github.com/JResearchLabs/aigisos/txpool/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
 	empty "google.golang.org/protobuf/types/known/emptypb"

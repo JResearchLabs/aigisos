@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/blockchain"
-	"github.com/JResearchLabs/Flutechain/network/common"
-	"github.com/JResearchLabs/Flutechain/server/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/blockchain"
+	"github.com/JResearchLabs/aigisos/network/common"
+	"github.com/JResearchLabs/aigisos/server/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/libp2p/go-libp2p-core/peer"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )

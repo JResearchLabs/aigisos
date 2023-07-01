@@ -6,14 +6,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/blockchain/storage"
+	"github.com/JResearchLabs/aigisos/blockchain/storage"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/state"
-	itrie "github.com/JResearchLabs/Flutechain/state/immutable-trie"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/state"
+	itrie "github.com/JResearchLabs/aigisos/state/immutable-trie"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 var (

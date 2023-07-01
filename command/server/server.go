@@ -3,19 +3,19 @@ package server
 import (
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/server/config"
-	"github.com/JResearchLabs/Flutechain/command/server/export"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/server/config"
+	"github.com/JResearchLabs/aigisos/command/server/export"
 	"github.com/spf13/cobra"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/server"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/server"
 )
 
 func GetCommand() *cobra.Command {
 	serverCmd := &cobra.Command{
 		Use:     "server",
-		Short:   "The default command that starts the Flutechain client, by bootstrapping all modules together",
+		Short:   "The default command that starts the aigisos client, by bootstrapping all modules together",
 		PreRunE: runPreRun,
 		Run:     runCommand,
 	}
@@ -65,7 +65,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.rawConfig.DataDir,
 		dataDirFlag,
 		defaultConfig.DataDir,
-		"the data directory used for storing Flutechain client data",
+		"the data directory used for storing aigisos client data",
 	)
 
 	cmd.Flags().StringVar(

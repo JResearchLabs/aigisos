@@ -1,35 +1,35 @@
 # E2E tests
 
-The implemented E2E tests start a local instance of Flutechain.
+The implemented E2E tests start a local instance of aigisos.
 
-As such, they require the binary 'Flutechain' to be available in the $PATH variable.<br />
+As such, they require the binary 'aigisos' to be available in the $PATH variable.<br />
 Typically, the actual directory added to the $PATH variable would be the `go/bin` folder.
 
-## Step 1: Build the Flutechain
+## Step 1: Build the aigisos
 
 ```bash
-go build -o $HOME/go/bin/Flutechain ./main.go
+go build -o $HOME/go/bin/aigisos ./main.go
 ```
 
 ## Step 2: Run the tests
 
-Now that the Flutechain binary is in the `go/bin` folder, the e2e test server is able to locate it when running tests.
+Now that the aigisos binary is in the `go/bin` folder, the e2e test server is able to locate it when running tests.
 
 ## Manual checks if things are acting funny
 
-### Check if the Flutechain process is running
+### Check if the aigisos process is running
 
-If you've stopped the tests abruptly, chances are the Flutechain process is still running on your machine. <br/ >
+If you've stopped the tests abruptly, chances are the aigisos process is still running on your machine. <br/ >
 In order for the tests to function normally, please kill the process.
 
-### Check if the Flutechain-* folders are present in /tmp/
+### Check if the aigisos-* folders are present in /tmp/
 
-While running, the e2e server stores data needed for running in the /tmp/Flutechain* folders. <br />
+While running, the e2e server stores data needed for running in the /tmp/aigisos* folders. <br />
 To clean up these folders, simply run:
 
 ````bash
 cd /tmp/
-rm -rf Flutechain-*
+rm -rf aigisos-*
 ````
 
 ### Clean the golang test cache

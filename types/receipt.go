@@ -7,8 +7,8 @@ import (
 
 	goHex "encoding/hex"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
 )
 
 type ReceiptStatus uint64

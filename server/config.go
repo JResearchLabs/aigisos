@@ -5,9 +5,9 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/network"
-	"github.com/JResearchLabs/Flutechain/secrets"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/network"
+	"github.com/JResearchLabs/aigisos/secrets"
 )
 
 const DefaultGRPCPort int = 9632

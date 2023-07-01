@@ -1,10 +1,10 @@
 package backup
 
 import (
-	"github.com/JResearchLabs/Flutechain/command"
+	"github.com/JResearchLabs/aigisos/command"
 	"github.com/spf13/cobra"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
+	"github.com/JResearchLabs/aigisos/command/helper"
 )
 
 func GetCommand() *cobra.Command {

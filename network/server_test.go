@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/network/common"
-	peerEvent "github.com/JResearchLabs/Flutechain/network/event"
+	"github.com/JResearchLabs/aigisos/network/common"
+	peerEvent "github.com/JResearchLabs/aigisos/network/event"
 
-	"github.com/JResearchLabs/Flutechain/helper/tests"
+	"github.com/JResearchLabs/aigisos/helper/tests"
 
 	"github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/libp2p/go-libp2p-core/network"

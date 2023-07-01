@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/JResearchLabs/Flutechain/network"
+	"github.com/JResearchLabs/aigisos/network"
 	"gopkg.in/yaml.v3"
 
 	"github.com/hashicorp/hcl"

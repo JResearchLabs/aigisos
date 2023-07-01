@@ -8,9 +8,9 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/command/loadbot/generator"
-	"github.com/JResearchLabs/Flutechain/helper/common"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/command/loadbot/generator"
+	"github.com/JResearchLabs/aigisos/helper/common"
 )
 
 const (

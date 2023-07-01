@@ -7,14 +7,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/state"
+	"github.com/JResearchLabs/aigisos/state"
 
-	"github.com/JResearchLabs/Flutechain/chain"
+	"github.com/JResearchLabs/aigisos/chain"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/JResearchLabs/Flutechain/blockchain/storage"
-	"github.com/JResearchLabs/Flutechain/blockchain/storage/memory"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/blockchain/storage"
+	"github.com/JResearchLabs/aigisos/blockchain/storage/memory"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 func TestGenesis(t *testing.T) {

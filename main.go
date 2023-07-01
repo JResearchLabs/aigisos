@@ -3,8 +3,8 @@ package main
 import (
 	_ "embed"
 
-	"github.com/JResearchLabs/Flutechain/command/root"
-	"github.com/JResearchLabs/Flutechain/licenses"
+	"github.com/JResearchLabs/aigisos/command/root"
+	"github.com/JResearchLabs/aigisos/licenses"
 )
 
 var (

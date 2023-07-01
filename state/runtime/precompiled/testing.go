@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/hex"
 )
 
 type TestCase struct {

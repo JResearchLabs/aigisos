@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	testproto "github.com/JResearchLabs/Flutechain/network/proto"
+	testproto "github.com/JResearchLabs/aigisos/network/proto"
 	"github.com/libp2p/go-libp2p-core/peer"
 )
 

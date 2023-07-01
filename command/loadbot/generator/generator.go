@@ -8,7 +8,7 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

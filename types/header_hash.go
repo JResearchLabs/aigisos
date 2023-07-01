@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
 	"github.com/umbracle/fastrlp"
 )
 

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/server/config"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/server/config"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 )

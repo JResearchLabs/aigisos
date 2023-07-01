@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 func TestSubscriptionLinear(t *testing.T) {

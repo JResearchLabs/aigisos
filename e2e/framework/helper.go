@@ -16,14 +16,14 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/JResearchLabs/Flutechain/contracts/abis"
-	"github.com/JResearchLabs/Flutechain/contracts/staking"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/helper/tests"
-	"github.com/JResearchLabs/Flutechain/server/proto"
-	txpoolProto "github.com/JResearchLabs/Flutechain/txpool/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/contracts/abis"
+	"github.com/JResearchLabs/aigisos/contracts/staking"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/tests"
+	"github.com/JResearchLabs/aigisos/server/proto"
+	txpoolProto "github.com/JResearchLabs/aigisos/txpool/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"golang.org/x/crypto/sha3"
@@ -382,7 +382,7 @@ func MethodSigWithParams(nameWithParams string) []byte {
 
 // tempDir returns directory path in tmp with random directory name
 func tempDir() (string, error) {
-	return ioutil.TempDir("/tmp", "Flutechain-e2e-")
+	return ioutil.TempDir("/tmp", "aigisos-e2e-")
 }
 
 func ToLocalIPv4LibP2pAddr(port int, nodeID string) string {

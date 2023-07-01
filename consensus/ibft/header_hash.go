@@ -1,8 +1,8 @@
 package ibft
 
 import (
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/umbracle/fastrlp"
 )
 

@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/command/loadbot/generator"
-	"github.com/JResearchLabs/Flutechain/helper/tests"
-	txpoolOp "github.com/JResearchLabs/Flutechain/txpool/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/command/loadbot/generator"
+	"github.com/JResearchLabs/aigisos/helper/tests"
+	txpoolOp "github.com/JResearchLabs/aigisos/txpool/proto"
+	"github.com/JResearchLabs/aigisos/types"
 
 	"github.com/umbracle/ethgo/jsonrpc"
 )

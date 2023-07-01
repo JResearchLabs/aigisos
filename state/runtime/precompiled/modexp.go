@@ -5,7 +5,7 @@ import (
 
 	"math"
 
-	"github.com/JResearchLabs/Flutechain/chain"
+	"github.com/JResearchLabs/aigisos/chain"
 )
 
 type modExp struct {

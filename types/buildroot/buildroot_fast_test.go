@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/helper/keccak"
+	"github.com/JResearchLabs/aigisos/helper/keccak"
 )
 
 func BenchmarkFast(b *testing.B) {

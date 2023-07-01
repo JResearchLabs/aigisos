@@ -1,8 +1,8 @@
 package consensus
 
 import (
-	"github.com/JResearchLabs/Flutechain/types"
-	"github.com/JResearchLabs/Flutechain/types/buildroot"
+	"github.com/JResearchLabs/aigisos/types"
+	"github.com/JResearchLabs/aigisos/types/buildroot"
 )
 
 // BuildBlockParams are parameters passed into the BuildBlock helper method

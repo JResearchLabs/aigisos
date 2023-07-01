@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/JResearchLabs/Flutechain/command/backup"
-	"github.com/JResearchLabs/Flutechain/command/genesis"
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/command/ibft"
-	"github.com/JResearchLabs/Flutechain/command/license"
-	"github.com/JResearchLabs/Flutechain/command/loadbot"
-	"github.com/JResearchLabs/Flutechain/command/monitor"
-	"github.com/JResearchLabs/Flutechain/command/peers"
-	"github.com/JResearchLabs/Flutechain/command/secrets"
-	"github.com/JResearchLabs/Flutechain/command/server"
-	"github.com/JResearchLabs/Flutechain/command/status"
-	"github.com/JResearchLabs/Flutechain/command/txpool"
-	"github.com/JResearchLabs/Flutechain/command/version"
+	"github.com/JResearchLabs/aigisos/command/backup"
+	"github.com/JResearchLabs/aigisos/command/genesis"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/command/ibft"
+	"github.com/JResearchLabs/aigisos/command/license"
+	"github.com/JResearchLabs/aigisos/command/loadbot"
+	"github.com/JResearchLabs/aigisos/command/monitor"
+	"github.com/JResearchLabs/aigisos/command/peers"
+	"github.com/JResearchLabs/aigisos/command/secrets"
+	"github.com/JResearchLabs/aigisos/command/server"
+	"github.com/JResearchLabs/aigisos/command/status"
+	"github.com/JResearchLabs/aigisos/command/txpool"
+	"github.com/JResearchLabs/aigisos/command/version"
 	"github.com/spf13/cobra"
 )
 
@@ -27,7 +27,7 @@ type RootCommand struct {
 func NewRootCommand() *RootCommand {
 	rootCommand := &RootCommand{
 		baseCmd: &cobra.Command{
-			Short: "Flutechain is a framework for building Ethereum-compatible Blockchain networks",
+			Short: "aigisos is a framework for building Ethereum-compatible Blockchain networks",
 		},
 	}
 

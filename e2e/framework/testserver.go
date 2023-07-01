@@ -20,22 +20,22 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/genesis"
-	ibftSwitch "github.com/JResearchLabs/Flutechain/command/ibft/switch"
-	initCmd "github.com/JResearchLabs/Flutechain/command/secrets/init"
-	"github.com/JResearchLabs/Flutechain/command/server"
-	"github.com/JResearchLabs/Flutechain/consensus/ibft"
-	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
-	"github.com/JResearchLabs/Flutechain/crypto"
-	stakingHelper "github.com/JResearchLabs/Flutechain/helper/staking"
-	"github.com/JResearchLabs/Flutechain/helper/tests"
-	"github.com/JResearchLabs/Flutechain/network"
-	"github.com/JResearchLabs/Flutechain/secrets"
-	"github.com/JResearchLabs/Flutechain/secrets/local"
-	"github.com/JResearchLabs/Flutechain/server/proto"
-	txpoolProto "github.com/JResearchLabs/Flutechain/txpool/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/genesis"
+	ibftSwitch "github.com/JResearchLabs/aigisos/command/ibft/switch"
+	initCmd "github.com/JResearchLabs/aigisos/command/secrets/init"
+	"github.com/JResearchLabs/aigisos/command/server"
+	"github.com/JResearchLabs/aigisos/consensus/ibft"
+	ibftOp "github.com/JResearchLabs/aigisos/consensus/ibft/proto"
+	"github.com/JResearchLabs/aigisos/crypto"
+	stakingHelper "github.com/JResearchLabs/aigisos/helper/staking"
+	"github.com/JResearchLabs/aigisos/helper/tests"
+	"github.com/JResearchLabs/aigisos/network"
+	"github.com/JResearchLabs/aigisos/secrets"
+	"github.com/JResearchLabs/aigisos/secrets/local"
+	"github.com/JResearchLabs/aigisos/server/proto"
+	txpoolProto "github.com/JResearchLabs/aigisos/txpool/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/umbracle/ethgo/jsonrpc"
@@ -49,7 +49,7 @@ type TestServerConfigCallback func(*TestServerConfig)
 const (
 	serverIP    = "127.0.0.1"
 	initialPort = 12000
-	binaryName  = "Flutechain"
+	binaryName  = "aigisos"
 )
 
 type TestServer struct {

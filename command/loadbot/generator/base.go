@@ -3,7 +3,7 @@ package generator
 import (
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/crypto"
+	"github.com/JResearchLabs/aigisos/crypto"
 )
 
 type BaseGenerator struct {

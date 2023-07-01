@@ -1,9 +1,9 @@
 package txpool
 
 import (
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/command/txpool/status"
-	"github.com/JResearchLabs/Flutechain/command/txpool/subscribe"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/command/txpool/status"
+	"github.com/JResearchLabs/aigisos/command/txpool/subscribe"
 	"github.com/spf13/cobra"
 )
 

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/consensus"
-	"github.com/JResearchLabs/Flutechain/state"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/consensus"
+	"github.com/JResearchLabs/aigisos/state"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/JResearchLabs/go-ibft/messages"
 )
 

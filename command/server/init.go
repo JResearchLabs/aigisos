@@ -6,16 +6,16 @@ import (
 	"math"
 	"net"
 
-	"github.com/JResearchLabs/Flutechain/command/server/config"
+	"github.com/JResearchLabs/aigisos/command/server/config"
 
-	"github.com/JResearchLabs/Flutechain/network/common"
+	"github.com/JResearchLabs/aigisos/network/common"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/network"
-	"github.com/JResearchLabs/Flutechain/secrets"
-	"github.com/JResearchLabs/Flutechain/server"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/network"
+	"github.com/JResearchLabs/aigisos/secrets"
+	"github.com/JResearchLabs/aigisos/server"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 var (

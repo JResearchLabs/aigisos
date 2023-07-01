@@ -1,7 +1,7 @@
 package txpool
 
 import (
-	"github.com/JResearchLabs/Flutechain/txpool/proto"
+	"github.com/JResearchLabs/aigisos/txpool/proto"
 )
 
 type subscriptionID int32

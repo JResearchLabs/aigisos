@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/JResearchLabs/Flutechain/network/grpc"
-	"github.com/JResearchLabs/Flutechain/syncer/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/network/grpc"
+	"github.com/JResearchLabs/aigisos/syncer/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/golang/protobuf/ptypes/empty"
 )
 

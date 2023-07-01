@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/crypto"
-	"github.com/JResearchLabs/Flutechain/helper/common"
-	"github.com/JResearchLabs/Flutechain/secrets"
+	"github.com/JResearchLabs/aigisos/crypto"
+	"github.com/JResearchLabs/aigisos/helper/common"
+	"github.com/JResearchLabs/aigisos/secrets"
 	"github.com/hashicorp/go-hclog"
 	libp2pCrypto "github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/stretchr/testify/assert"

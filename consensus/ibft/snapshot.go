@@ -13,8 +13,8 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/consensus/ibft/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/hashicorp/go-hclog"
 )
 

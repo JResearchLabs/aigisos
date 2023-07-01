@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/state/runtime"
+	"github.com/JResearchLabs/aigisos/state/runtime"
 	"github.com/umbracle/ethgo/abi"
 )
 

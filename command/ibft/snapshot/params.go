@@ -3,9 +3,9 @@ package snapshot
 import (
 	"context"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	ibftOp "github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	ibftOp "github.com/JResearchLabs/aigisos/consensus/ibft/proto"
 )
 
 const (

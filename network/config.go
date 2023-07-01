@@ -3,8 +3,8 @@ package network
 import (
 	"net"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/secrets"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/secrets"
 	"github.com/multiformats/go-multiaddr"
 )
 

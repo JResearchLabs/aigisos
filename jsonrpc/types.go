@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 // For union type of transaction and types.Hash

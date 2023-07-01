@@ -3,7 +3,7 @@ package ibft
 import (
 	"math"
 
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 type ValidatorSet []types.Address

@@ -1,4 +1,4 @@
-module github.com/JResearchLabs/Flutechain
+module github.com/JResearchLabs/aigisos
 
 go 1.17
 

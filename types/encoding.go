@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/hex"
 )
 
 func ParseUint64orHex(val *string) (uint64, error) {

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	txpoolProto "github.com/JResearchLabs/Flutechain/txpool/proto"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	txpoolProto "github.com/JResearchLabs/aigisos/txpool/proto"
 )
 
 type TxPoolEventResult struct {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/blockchain/storage"
+	"github.com/JResearchLabs/aigisos/blockchain/storage"
 	"github.com/hashicorp/go-hclog"
 )
 

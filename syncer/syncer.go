@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/helper/progress"
-	"github.com/JResearchLabs/Flutechain/network/event"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/helper/progress"
+	"github.com/JResearchLabs/aigisos/network/event"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p-core/peer"
 )

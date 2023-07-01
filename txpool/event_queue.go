@@ -3,7 +3,7 @@ package txpool
 import (
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/txpool/proto"
+	"github.com/JResearchLabs/aigisos/txpool/proto"
 )
 
 type eventQueue struct {

@@ -1,10 +1,10 @@
 package peers
 
 import (
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/command/peers/add"
-	"github.com/JResearchLabs/Flutechain/command/peers/list"
-	"github.com/JResearchLabs/Flutechain/command/peers/status"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/command/peers/add"
+	"github.com/JResearchLabs/aigisos/command/peers/list"
+	"github.com/JResearchLabs/aigisos/command/peers/status"
 	"github.com/spf13/cobra"
 )
 

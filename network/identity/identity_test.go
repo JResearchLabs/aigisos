@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/network/proto"
-	networkTesting "github.com/JResearchLabs/Flutechain/network/testing"
+	"github.com/JResearchLabs/aigisos/network/proto"
+	networkTesting "github.com/JResearchLabs/aigisos/network/testing"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"

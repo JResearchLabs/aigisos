@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/versioning"
+	"github.com/JResearchLabs/aigisos/versioning"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
@@ -37,5 +37,5 @@ func TestWeb3EndpointClientVersion(t *testing.T) {
 	var res string
 
 	assert.NoError(t, expectJSONResult(resp, &res))
-	assert.Contains(t, res, fmt.Sprintf("Flutechain [%v]", versioning.Version))
+	assert.Contains(t, res, fmt.Sprintf("aigisos [%v]", versioning.Version))
 }

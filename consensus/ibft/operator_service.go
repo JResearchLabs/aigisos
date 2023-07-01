@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/consensus/ibft/proto"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/consensus/ibft/proto"
+	"github.com/JResearchLabs/aigisos/types"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

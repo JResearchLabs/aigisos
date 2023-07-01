@@ -1,13 +1,13 @@
 package ibft
 
 import (
-	"github.com/JResearchLabs/Flutechain/command/helper"
-	"github.com/JResearchLabs/Flutechain/command/ibft/candidates"
-	"github.com/JResearchLabs/Flutechain/command/ibft/propose"
-	"github.com/JResearchLabs/Flutechain/command/ibft/quorum"
-	"github.com/JResearchLabs/Flutechain/command/ibft/snapshot"
-	"github.com/JResearchLabs/Flutechain/command/ibft/status"
-	_switch "github.com/JResearchLabs/Flutechain/command/ibft/switch"
+	"github.com/JResearchLabs/aigisos/command/helper"
+	"github.com/JResearchLabs/aigisos/command/ibft/candidates"
+	"github.com/JResearchLabs/aigisos/command/ibft/propose"
+	"github.com/JResearchLabs/aigisos/command/ibft/quorum"
+	"github.com/JResearchLabs/aigisos/command/ibft/snapshot"
+	"github.com/JResearchLabs/aigisos/command/ibft/status"
+	_switch "github.com/JResearchLabs/aigisos/command/ibft/switch"
 	"github.com/spf13/cobra"
 )
 

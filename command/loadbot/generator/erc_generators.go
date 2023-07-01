@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/crypto"
+	"github.com/JResearchLabs/aigisos/crypto"
 )
 
 // call ERC20 contract method and encode parameters

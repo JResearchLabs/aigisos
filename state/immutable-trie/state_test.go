@@ -3,7 +3,7 @@ package itrie
 import (
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/state"
+	"github.com/JResearchLabs/aigisos/state"
 )
 
 func TestState(t *testing.T) {

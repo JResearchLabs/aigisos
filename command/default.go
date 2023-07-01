@@ -1,10 +1,10 @@
 package command
 
-import "github.com/JResearchLabs/Flutechain/server"
+import "github.com/JResearchLabs/aigisos/server"
 
 const (
 	DefaultGenesisFileName = "genesis.json"
-	DefaultChainName       = "Flutechain"
+	DefaultChainName       = "aigisos"
 	DefaultChainID         = 100
 	DefaultPremineBalance  = "0x3635C9ADC5DEA00000" // 1000 ETH
 	DefaultConsensus       = server.IBFTConsensus

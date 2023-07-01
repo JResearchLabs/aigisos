@@ -1,8 +1,8 @@
 
 
-## Flutechain
+## aigisos
 
-JResearchLabs Flutechain is a modular and extensible framework for building Ethereum-compatible blockchain networks, which forks from Polygon-edge project.
+JResearchLabs aigisos is a modular and extensible framework for building Ethereum-compatible blockchain networks, which forks from Polygon-edge project.
 
 ---
 

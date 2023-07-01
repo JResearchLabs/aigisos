@@ -1,8 +1,8 @@
 package ibft
 
 import (
-	"github.com/JResearchLabs/Flutechain/network"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/network"
+	"github.com/JResearchLabs/aigisos/types"
 	"github.com/JResearchLabs/go-ibft/messages/proto"
 	"github.com/libp2p/go-libp2p-core/peer"
 )

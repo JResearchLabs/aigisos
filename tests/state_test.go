@@ -10,12 +10,12 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/JResearchLabs/Flutechain/chain"
-	"github.com/JResearchLabs/Flutechain/helper/hex"
-	"github.com/JResearchLabs/Flutechain/state"
-	"github.com/JResearchLabs/Flutechain/state/runtime/evm"
-	"github.com/JResearchLabs/Flutechain/state/runtime/precompiled"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/chain"
+	"github.com/JResearchLabs/aigisos/helper/hex"
+	"github.com/JResearchLabs/aigisos/state"
+	"github.com/JResearchLabs/aigisos/state/runtime/evm"
+	"github.com/JResearchLabs/aigisos/state/runtime/precompiled"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 var (

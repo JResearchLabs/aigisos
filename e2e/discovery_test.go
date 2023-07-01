@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JResearchLabs/Flutechain/e2e/framework"
-	"github.com/JResearchLabs/Flutechain/server/proto"
+	"github.com/JResearchLabs/aigisos/e2e/framework"
+	"github.com/JResearchLabs/aigisos/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

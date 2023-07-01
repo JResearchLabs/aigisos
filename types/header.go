@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/hex"
 )
 
 // Header represents a block header in the Ethereum blockchain.

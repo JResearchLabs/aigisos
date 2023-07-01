@@ -1,15 +1,15 @@
 package server
 
 import (
-	"github.com/JResearchLabs/Flutechain/consensus"
-	consensusDev "github.com/JResearchLabs/Flutechain/consensus/dev"
-	consensusDummy "github.com/JResearchLabs/Flutechain/consensus/dummy"
-	consensusIBFT "github.com/JResearchLabs/Flutechain/consensus/ibft"
-	"github.com/JResearchLabs/Flutechain/secrets"
-	"github.com/JResearchLabs/Flutechain/secrets/awsssm"
-	"github.com/JResearchLabs/Flutechain/secrets/gcpssm"
-	"github.com/JResearchLabs/Flutechain/secrets/hashicorpvault"
-	"github.com/JResearchLabs/Flutechain/secrets/local"
+	"github.com/JResearchLabs/aigisos/consensus"
+	consensusDev "github.com/JResearchLabs/aigisos/consensus/dev"
+	consensusDummy "github.com/JResearchLabs/aigisos/consensus/dummy"
+	consensusIBFT "github.com/JResearchLabs/aigisos/consensus/ibft"
+	"github.com/JResearchLabs/aigisos/secrets"
+	"github.com/JResearchLabs/aigisos/secrets/awsssm"
+	"github.com/JResearchLabs/aigisos/secrets/gcpssm"
+	"github.com/JResearchLabs/aigisos/secrets/hashicorpvault"
+	"github.com/JResearchLabs/aigisos/secrets/local"
 )
 
 type ConsensusType string

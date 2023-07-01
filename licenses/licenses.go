@@ -14,7 +14,7 @@ type DepLicense struct {
 }
 
 var (
-	// Flutechain License
+	// aigisos License
 	License string
 
 	// Dependency Licenses

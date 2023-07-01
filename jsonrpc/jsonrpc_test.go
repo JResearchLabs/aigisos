@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/helper/tests"
+	"github.com/JResearchLabs/aigisos/helper/tests"
 
 	"github.com/hashicorp/go-hclog"
 )

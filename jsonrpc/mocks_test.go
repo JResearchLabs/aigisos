@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/blockchain"
-	"github.com/JResearchLabs/Flutechain/state"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/blockchain"
+	"github.com/JResearchLabs/aigisos/state"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 type mockAccount struct {

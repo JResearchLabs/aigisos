@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/network/common"
+	"github.com/JResearchLabs/aigisos/network/common"
 
 	"github.com/libp2p/go-libp2p-core/peer"
 )

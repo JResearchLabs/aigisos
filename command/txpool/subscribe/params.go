@@ -1,6 +1,6 @@
 package subscribe
 
-import "github.com/JResearchLabs/Flutechain/txpool/proto"
+import "github.com/JResearchLabs/aigisos/txpool/proto"
 
 var (
 	params = &subscribeParams{}

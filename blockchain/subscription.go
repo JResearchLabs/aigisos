@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 type void struct{}

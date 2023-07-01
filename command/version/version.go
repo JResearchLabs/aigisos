@@ -1,15 +1,15 @@
 package version
 
 import (
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/versioning"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/versioning"
 	"github.com/spf13/cobra"
 )
 
 func GetCommand() *cobra.Command {
 	return &cobra.Command{
 		Use:   "version",
-		Short: "Returns the current Flutechain version",
+		Short: "Returns the current aigisos version",
 		Args:  cobra.NoArgs,
 		Run:   runCommand,
 	}

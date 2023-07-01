@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/contracts/staking"
-	stakingHelper "github.com/JResearchLabs/Flutechain/helper/staking"
-	"github.com/JResearchLabs/Flutechain/state"
-	"github.com/JResearchLabs/Flutechain/types"
+	"github.com/JResearchLabs/aigisos/contracts/staking"
+	stakingHelper "github.com/JResearchLabs/aigisos/helper/staking"
+	"github.com/JResearchLabs/aigisos/state"
+	"github.com/JResearchLabs/aigisos/types"
 )
 
 // PoSMechanism defines specific hooks for the Proof of Stake IBFT mechanism

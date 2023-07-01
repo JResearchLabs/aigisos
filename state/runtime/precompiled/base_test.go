@@ -4,7 +4,7 @@ package precompiled
 import (
 	"testing"
 
-	"github.com/JResearchLabs/Flutechain/helper/hex"
+	"github.com/JResearchLabs/aigisos/helper/hex"
 	"github.com/stretchr/testify/assert"
 )
 

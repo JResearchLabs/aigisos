@@ -3,8 +3,8 @@ package loadbot
 import (
 	"fmt"
 
-	"github.com/JResearchLabs/Flutechain/command"
-	"github.com/JResearchLabs/Flutechain/command/helper"
+	"github.com/JResearchLabs/aigisos/command"
+	"github.com/JResearchLabs/aigisos/command/helper"
 	"github.com/spf13/cobra"
 )
 
