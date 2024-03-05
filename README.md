@@ -14,7 +14,7 @@ Smart Contract Capabilities: Aigisos incorporates smart contract functionality, 
 
 ---
 
-Copyright 2022 JResearchLabs
+Copyright 2024 AIG LABS LIMITED
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
